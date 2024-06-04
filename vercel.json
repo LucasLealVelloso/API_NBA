@@ -5,6 +5,6 @@
   ],
   "routes": [
     { "src": "resultados_nba", "dest": "/main.py" },
-    { "src": "(.*)", "dest": "/main.py" }
+    { "src": "/(.*)", "dest": "/main.py" }
   ]
 }
